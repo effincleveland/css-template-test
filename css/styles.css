@@ -1,15 +1,17 @@
 section{
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 }
 
 section > img{
-	max-width: 100%
+	max-width: 100%;
 }
 
-section > div, h1, h3,  p, {
+div, h1, h3,  p, cite {
+	display: block;
 	max-width: 75%;
 	margin: 0 auto;
+	margin: green;
 }
 
 .categories {
@@ -20,5 +22,17 @@ section > div, h1, h3,  p, {
 	text-transform: uppercase;
 	color: #0D9BCF;
 	font-family: sans-serif;
-
+	font-size: 12px;
 }
+
+#title{
+	padding-top: 28px;
+	font-family: sans-serif;
+	color: #222;
+	font-size: 56px;
+	line-height: 64.4px;
+	max-width: 640px;
+	min-width: 576px;
+}
+
+
